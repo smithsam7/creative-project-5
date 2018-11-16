@@ -1,0 +1,70 @@
+nohup: ignoring input
+Port: 4210
+Connected
+[0mGET / [36m304 [0m5.582 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m2.075 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.210 ms - -[0m
+POST video route
+{ Name: '', Video: '' }
+Saved Worked!
+{ _id: 5bee4416bbd1717795ef0d25, Name: '', Video: '', __v: 0 }
+[0mPOST /video [32m200 [0m43.652 ms - 2[0m
+In the GET route
+{ q: '' }
+
+[ { _id: 5bee4383c3015176ad9acabd,
+    Name: '2018',
+    Video: 'https://www.youtube.com/embed/xbQumI0mUs8',
+    __v: 0 },
+  { _id: 5bee43a8c3015176ad9acabe,
+    Name: '2017',
+    Video: 'https://www.youtube.com/embed/yfPBQyQkUKI',
+    __v: 0 },
+  { _id: 5bee4416bbd1717795ef0d25, Name: '', Video: '', __v: 0 } ]
+[0mGET /video?q= [32m200 [0m20.898 ms - 283[0m
+[0mGET / [32m200 [0m2.918 ms - 1296[0m
+[0mGET /javascripts/app.js [32m200 [0m1.680 ms - 1579[0m
+[0mGET /stylesheets/style.css [32m200 [0m2.265 ms - 1130[0m
+[0mGET /favicon.ico [33m404 [0m303.503 ms - 1873[0m
+[0mGET / [32m200 [0m0.798 ms - 1296[0m
+[0mGET /javascripts/app.js [32m200 [0m0.624 ms - 1579[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.760 ms - 1130[0m
+[0mGET /favicon.ico [33m404 [0m40.952 ms - 1873[0m
+[0mGET / [36m304 [0m0.417 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m1.264 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.222 ms - -[0m
+In the GET route
+{ q: '' }
+
+[ { _id: 5bee4383c3015176ad9acabd,
+    Name: '2018',
+    Video: 'https://www.youtube.com/embed/xbQumI0mUs8',
+    __v: 0 },
+  { _id: 5bee43a8c3015176ad9acabe,
+    Name: '2017',
+    Video: 'https://www.youtube.com/embed/yfPBQyQkUKI',
+    __v: 0 },
+  { _id: 5bee4416bbd1717795ef0d25, Name: '', Video: '', __v: 0 } ]
+[0mGET /video?q= [32m200 [0m5.769 ms - 283[0m
+In the GET route
+{ q: '' }
+
+[ { _id: 5bee4383c3015176ad9acabd,
+    Name: '2018',
+    Video: 'https://www.youtube.com/embed/xbQumI0mUs8',
+    __v: 0 },
+  { _id: 5bee43a8c3015176ad9acabe,
+    Name: '2017',
+    Video: 'https://www.youtube.com/embed/yfPBQyQkUKI',
+    __v: 0 },
+  { _id: 5bee4416bbd1717795ef0d25, Name: '', Video: '', __v: 0 } ]
+[0mGET /video?q= [36m304 [0m6.440 ms - -[0m
+POST video route
+{ Name: '', Video: '' }
+Saved Worked!
+{ _id: 5bee4451bbd1717795ef0d26, Name: '', Video: '', __v: 0 }
+[0mPOST /video [32m200 [0m5.194 ms - 2[0m
+[0mGET /? [32m200 [0m1.111 ms - 1296[0m
+[0mGET /javascripts/app.js [36m304 [0m3.355 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.445 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m44.922 ms - 1873[0m

@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+html{
+  background: url("http://akronaviators.com/wp-content/uploads/2018/10/basketball-court.jpg") no-repeat center fixed ;
+  background-size: cover;
+}
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+}
+
+a {
+  color: #00B7FF;
+}
+
+p, h2, ul{
+  color: white;
+  list-style: none;
+}
+
+ul{
+  text-align: center;
+}
+
+.description{
+  color: black;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+#videoForm {
+  background-color: white;
+  width: 300px;
+  margin-left: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 15px 25px;
+  border: 5px groove gray;
+  text-align: center;
+}
+
+input[type=text]:focus {
+  color: #FEFEFE;
+  background-color: #1A1A1A;
+}
+
+input{
+  width: 150px;
+  padding: 5px;
+}
+
+#name{
+  margin-bottom: 20px;
+}
+
+#query{
+  margin-top: 5px;
+}
+
+button:hover {
+  background-color: #555555;
+  color: white;
+  transition-duration: 0.8s;
+
+}
+
+button {
+  margin-left: 50px;
+  margin-bottom: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.videoText {
+  font-size: 20px;
+}

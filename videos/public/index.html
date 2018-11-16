@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Videos!</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="javascripts/app.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+</head>
+
+<body>
+    <h2>Video Library</h2>
+    <div class="column">
+        <form id="videoForm">
+            <h4>Enter Name and Video URL</h4>
+            <p class="description">Find youtube video, click "Share", and select "Embed".<br>
+            Copy the link inside src="[link]". Use this for the URL.</p>
+            <label for="name"></label><input type="text" id="name" placeholder="Name"><br>
+            <label for="video"></label><input type="text" id="video" placeholder="Video URL"><br>
+        </form>
+
+        <button id="postVideos">Post Video</button><br />
+        <button id="getVideos">Get Videos</button><br />
+        <button id="deleteVideos">Delete All</button>
+
+        <form id="videoForm">
+            <label for="name">Search Video by Name: </label><input type="text" id="query" placeholder="Search">
+        </form>
+    </div>
+    <div class="column videoText">
+        <div id="json"></div>
+        <div id="done"></div>
+        <p>Current Videos: <br /></p>
+        <div id="videos"></div>
+    </div>
+</body>
+
+</html>
